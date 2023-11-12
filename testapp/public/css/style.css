@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #fdf1f2; */
+    /* box-sizing: border-box; */
+}
+.slider1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fdf1f2;;
+}
+.wrapper{
+    
+    max-width: 1500px;
+}
+/* .container{
+
+} */
+.carousal{
+ white-space: nowrap;
+ overflow: hidden;
+}
+.image-item {
+    cursor: pointer;
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.carousal img:first-child{
+    margin-left: 0px;
+}
+.arrow{
+    height: 45px;
+    width: 45px;
+    text-align: center;
+}

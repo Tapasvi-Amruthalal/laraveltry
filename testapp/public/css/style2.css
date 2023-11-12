@@ -1,0 +1,28 @@
+*{
+
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    margin-top: 5vh;
+    /* align-items: center; */
+    /* align-self: center; */
+    
+    /* align-items: center; */
+}
+
+h1{
+    /* width: fit-content; */
+
+}
+
+.right{
+    background-color: red;
+    height: 100vh;
+    width:30vmax;
+    /* min-width: 30vmax; */
+    
+    position: absolute;
+    right:0;
+}
